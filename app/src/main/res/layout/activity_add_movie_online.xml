@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.finalproject.AddMovieOnline">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="searchOnClick"
+                android:text="@string/search" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewMovies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center"
+            android:onClick="cancelOnClick"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

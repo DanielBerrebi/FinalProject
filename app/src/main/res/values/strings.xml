@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="addMovieOnline">Add movie online</string>
+    <string name="addMovieOffline">Add movie offline</string>
+    <string name="exitApp">Exit</string>
+    <string name="deleteAllMovies">Delete all movies</string>
+    <string name="deleteThatMovie">Delete that movie</string>
+    <string name="editThatMovie">Edit movie</string>
+    <string name="movieName">Movie name</string>
+    <string name="description">Description</string>
+    <string name="show">Show</string>
+    <string name="search">Search</string>
+    <string name="if_you_watched_switch_please">If you watched switch please</string>
+    <string name="if_you_didnt_watched_switch_please">If you didn\'t watched switch please</string>
+    <string name="error_empty_movie_name">you didn\'t enter the movie name</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>

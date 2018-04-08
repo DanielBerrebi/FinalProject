@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.finalproject.ShowMovieDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="50">
+
+        <TextView
+            android:id="@+id/textViewShowMovieName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewShowMovieDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/imageViewMoviePicture"
+            android:layout_width="100dp"
+            android:layout_height="271dp"
+            android:layout_weight="1" />
+
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="cancelOnClick"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

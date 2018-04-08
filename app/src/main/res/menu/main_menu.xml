@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item android:title="" android:icon="@drawable/plus_icon" app:showAsAction="ifRoom" >
+            <menu >
+                 <item android:title="@string/addMovieOnline" android:id="@+id/menuAddMovieOnline" android:orderInCategory="1"/>
+                 <item android:title="@string/addMovieOffline" android:id="@+id/menuAddMovieOffline" android:orderInCategory="2"/>
+            </menu>
+        </item>
+
+        <item android:title="@string/exitApp"    android:id="@+id/menuExit"/>
+        <item android:title="@string/deleteAllMovies" android:id="@+id/menuDeleteAllFiles"/>
+
+
+
+
+</menu>
